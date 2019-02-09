@@ -22,7 +22,7 @@ public class Main {
      * within the last hour. This server may take up to a minute to respond, if
      * it has to refresh its cached sample of tweets.
      */
-    public static final URL SAMPLE_SERVER = makeURLAssertWellFormatted("https://github.com/rainywang/Spring2018_HITCS_SC_Lab1/blob/master/P4/src/tweetPoll.py");
+    public static final URL SAMPLE_SERVER = makeURLAssertWellFormatted("https://github.com/rainywang/Spring2019_HITCS_SC_Lab1/blob/master/P4/src/tweetPoll.py");
     
     private static URL makeURLAssertWellFormatted(String urlString) {
         try {
