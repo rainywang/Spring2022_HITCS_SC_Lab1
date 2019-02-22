@@ -103,10 +103,6 @@ public class TurtleSoupTest {
 		assertEquals(convexHull, TurtleSoup.convexHull(points));
 
 		points.add(p12);
-		convexHull = new HashSet<Point>();
-		convexHull.add(p11);
-		convexHull.add(p1010);
-		convexHull.add(p110);
 		assertEquals(convexHull, TurtleSoup.convexHull(points));
 
 		points.add(p23);
