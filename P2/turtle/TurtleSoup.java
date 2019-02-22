@@ -102,14 +102,14 @@ public class TurtleSoup {
     }
     
     /**
-     * Given a set of points, Compute the convex hull, the smallest convex set that contains all the points 
+     * Given a set of points, compute the convex hull, the smallest convex set that contains all the points 
      * in a set of input points. The gift-wrapping algorithm is one simple approach to this problem, and 
      * there are other algorithms too.
      * 
      * @param points a set of points with xCoords and yCoords. It might be empty, contain only 1 point, two points or more.
      * @return minimal subset of the input points that form the vertices of the perimeter of the convex hull
      */
-    public static Set<Double> convexHull(Set<Point> points) {
+    public static Set<Points> convexHull(Set<Point> points) {
         throw new RuntimeException("implement me!");
     }
     
