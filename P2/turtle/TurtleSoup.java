@@ -109,7 +109,7 @@ public class TurtleSoup {
      * @param points a set of points with xCoords and yCoords. It might be empty, contain only 1 point, two points or more.
      * @return minimal subset of the input points that form the vertices of the perimeter of the convex hull
      */
-    public static Set<Points> convexHull(Set<Point> points) {
+    public static Set<Point> convexHull(Set<Point> points) {
         throw new RuntimeException("implement me!");
     }
     
